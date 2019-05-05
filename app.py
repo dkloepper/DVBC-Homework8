@@ -1,3 +1,12 @@
+
+#################################################
+# Homework 8
+# David Kloepper
+# Data Visualization Bootcamp, Cohort 3
+# May the 4th be with you, always. (2019)
+#################################################
+
+
 # import dependencies 
 import datetime as dt
 import numpy as np
@@ -14,7 +23,7 @@ from sqlalchemy.orm import scoped_session, sessionmaker
 #################################################
 # Database Setup
 #################################################
-engine = create_engine("sqlite:///hawaii.sqlite")
+engine = create_engine("sqlite:///Resources/hawaii.sqlite")
 
 # From Dom's in-class example. Keeps things from breaking. 
 session = scoped_session(sessionmaker(autocommit=False,
